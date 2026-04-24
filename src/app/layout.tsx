@@ -25,14 +25,14 @@ export default function RootLayout({
               <GraduationCap className="w-6 h-6" />
               <span>anilrai.name.np</span>
             </Link>
-            <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
+            {/* <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
               <Link href="/secondary" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Secondary
               </Link>
               <Link href="/undergraduate" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Undergraduate
               </Link>
-            </nav>
+            </nav> */}
           </div>
         </header>
         <main className="flex-grow flex flex-col relative">
