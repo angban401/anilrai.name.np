@@ -58,10 +58,11 @@ function UploadForm() {
     setStatus("idle");
 
     try {
-      // Format file name: RollNo_Subject_Timestamp
+      // Format file name: RollNo_Name_Subject_Timestamp
       const cleanSubject = subject.replace(/\s+/g, '_').replace(/[()]/g, '');
+      const cleanName = name.trim().replace(/\s+/g, '_');
       const timestamp = new Date().getTime();
-      const filePath = `${rollNo}_${cleanSubject}_${timestamp}.pdf`;
+      const filePath = `${rollNo}_${cleanName}_${cleanSubject}_${timestamp}.pdf`;
 
       // Upload to Supabase bucket
       const { error } = await supabase.storage
