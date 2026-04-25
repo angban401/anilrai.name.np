@@ -65,7 +65,7 @@ function UploadForm() {
 
       // Upload to Supabase bucket
       const { error } = await supabase.storage
-        .from("assignments")
+        .from("Assignment")
         .upload(filePath, file, {
           cacheControl: "3600",
           upsert: false,
