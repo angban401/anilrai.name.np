@@ -3,7 +3,7 @@ import Link from "next/link";
 const programs = [
   { title: "BBA", description: "Bachelor of Business Administration. Management, Finance, and Marketing.", color: "from-amber-500 to-orange-500", href: null },
   { title: "BITM", description: "Bachelor of Information Technology and Management. Bridging tech and business.", color: "from-blue-500 to-indigo-500", href: "/undergraduate/bitm" },
-  { title: "CSIT", description: "Computer Science and Information Technology. Core computing and software engineering.", color: "from-emerald-500 to-teal-500", href: null },
+  { title: "CSIT", description: "Computer Science and Information Technology. Core computing and software engineering.", color: "from-emerald-500 to-teal-500", href: "/undergraduate/csit" },
   { title: "BCA", description: "Bachelor of Computer Applications. Programming, databases, and web development.", color: "from-purple-500 to-violet-500", href: null },
 ];
 
